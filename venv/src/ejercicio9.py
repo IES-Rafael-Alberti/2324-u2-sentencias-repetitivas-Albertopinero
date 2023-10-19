@@ -1,14 +1,18 @@
-def seguridad():
-    return True
+def seguridad(passw):
+    password = "contraseña"
+    while passw != password:
+        return passw
 
 if __name__ == "__main__":
+
+
     #entrada
-    contraseña = input("Escribe la contraseña: ")
+    passw = input("Escribe la contraseña: ")
 
     #proceso
     password = "contraseña"
-    while contraseña != password:
-        contraseña = input("Escribe la contraseña: ")
+    while passw != password:
+        passw = input("Escribe la contraseña: ")
     
     #salida
     print("Contraseña Correcta!")   

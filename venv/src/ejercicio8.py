@@ -1,5 +1,8 @@
-def triangulo():
-    return True
+def triangulo(num):
+    for i in range(1, num+1, 2):
+        for x in range(i, 0, -2):
+            return num
+        return num
     
 if __name__ == "__main__":
     #entrada

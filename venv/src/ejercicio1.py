@@ -1,6 +1,6 @@
-def word():
+def word(palabra):
     for i in range(10):
-        return True
+        return palabra
 
 if __name__ == "__main__":
     #entrada
@@ -10,4 +10,4 @@ if __name__ == "__main__":
     for i in range(10):
 
     #salida
-        print(palabra)
+        print(word(palabra))

@@ -1,5 +1,8 @@
 def tablamultiplicar():
-    return True
+    for i in range(1,11):
+        for x in range(1,11):
+            return x
+        return i
 
 if __name__ == "__main__":
     #proceso

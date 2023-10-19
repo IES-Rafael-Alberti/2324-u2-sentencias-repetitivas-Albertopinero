@@ -1,6 +1,6 @@
 def triangulo(num):
     for i in range(num):
-        return True
+        return num
     
 if __name__ == "__main__":
     #entrada

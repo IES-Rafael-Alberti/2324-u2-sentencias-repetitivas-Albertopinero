@@ -1,5 +1,7 @@
-def inversion():   
-        return True
+def inversion(años,cantidad,interes):
+    for i in range(años):
+        cantidad *= 1 + interes / 100   
+        return años
     
 if __name__ == "__main__":
     #entrada

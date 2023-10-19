@@ -1,6 +1,6 @@
 def numero(num):
     for i in range(num, -1 , -1):
-        return True
+        return num
     
 if __name__ == "__main__":
     #entrada
