@@ -2,8 +2,11 @@ def numprimo():
     return True
 
 if __name__ == "__main__":
-    x = 2
+    #entrada
     num = int(input("Escribe un número mayor que 2: "))
+
+    #proceso
+    x = 2
     while num <= 2:
             num = int(input("Escribe un número mayor que 2: "))
     while num % x != 0:
