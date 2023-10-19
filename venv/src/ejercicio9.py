@@ -1,7 +1,9 @@
 def seguridad(passw):
     password = "contraseña"
-    while passw != password:
-        return passw
+    for i in passw:
+        while passw != password:
+            return i
+        return i
 
 if __name__ == "__main__":
     

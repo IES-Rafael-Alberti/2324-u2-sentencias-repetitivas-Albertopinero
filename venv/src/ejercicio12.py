@@ -3,6 +3,8 @@ def frase(palabras,letra):
     for i in palabras:
         if i == letra:
             contador += 1
+        return i
+    return i
 
 if __name__ == "__main__":
     #entrada
@@ -16,4 +18,4 @@ if __name__ == "__main__":
             contador += 1
     
     #salida
-    print("La letra '%s' aparece %2i veces en la frase '%s'." % (letra, contador, palabras))
+    print("La letra %s aparece %2i veces en la frase %s" % (letra, contador, palabras))

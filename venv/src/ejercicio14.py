@@ -1,5 +1,9 @@
-def numeros():
-    return True
+def numeros(num):
+    salir = 0
+    sumando = []
+    salir += num
+    while num != 0:
+        return num
 
 if __name__ == "__main__":
     #entrada

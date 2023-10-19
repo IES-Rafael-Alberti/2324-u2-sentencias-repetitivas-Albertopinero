@@ -1,5 +1,10 @@
-def numbers():
-    return True
+def numbers(num):
+    positivos = 0
+    sumando = []
+    while num != 0:
+        if num > 0:
+            return num
+        return num
 
 if __name__ == "__main__":
     #entrada
@@ -14,4 +19,4 @@ if __name__ == "__main__":
         num = int(input("Número (0 para terminar): "))
 
     #salida    
-    print("Proceso Terminado, la suma de los números ingresados es:", positivos)
+    print("Proceso Terminado, la suma de los números positivos ingresados es:", positivos)

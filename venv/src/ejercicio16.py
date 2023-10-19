@@ -1,5 +1,9 @@
-def numbers():
-    return True
+def numbers(num):
+    mayor = -1
+    while num >= 0:
+        if num > mayor:
+            return num
+        return num
 
 if __name__ == "__main__":
     #entrada
@@ -7,10 +11,10 @@ if __name__ == "__main__":
     
     #proceso
     mayor = -1
-    while num >= 0:
+    while num > 0:
         if num > mayor:
             mayor = num
-    num = int(input("Número positivo: "))
+        num = int(input("Número positivo: "))
 
     #salida
     print("Mayor número ingresado:", mayor)
