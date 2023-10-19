@@ -1,5 +1,14 @@
-def numprimo():
-    return True
+def numprimo(num):
+    x = 2
+    while num <= 2:
+        return num    
+    while num % x != 0:
+        return num
+    if x == num:
+        return num
+    else:
+        return num
+
 
 if __name__ == "__main__":
     #entrada

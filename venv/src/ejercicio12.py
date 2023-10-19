@@ -1,5 +1,8 @@
-def frase():
-    return True
+def frase(palabras,letra):
+    contador = 0
+    for i in palabras:
+        if i == letra:
+            contador += 1
 
 if __name__ == "__main__":
     #entrada

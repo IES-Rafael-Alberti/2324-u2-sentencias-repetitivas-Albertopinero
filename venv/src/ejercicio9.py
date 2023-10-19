@@ -4,8 +4,7 @@ def seguridad(passw):
         return passw
 
 if __name__ == "__main__":
-
-
+    
     #entrada
     passw = input("Escribe la contraseña: ")
 
