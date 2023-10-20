@@ -1,4 +1,4 @@
-from src.ejercicio19 import palabra
+from src.ejercicio20 import palabra
 
 def test_palabra():
     frase = "hola me llamo alberto"
